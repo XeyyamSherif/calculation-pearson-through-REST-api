@@ -20,5 +20,5 @@ from api import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('add-data', views.Post_Data),
-    path('correlation/', views.correllation)
+    path('correlation', views.correllation)
 ]
